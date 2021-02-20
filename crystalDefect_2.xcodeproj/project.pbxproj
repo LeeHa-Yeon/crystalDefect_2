@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -14,6 +14,8 @@
 		9FBE6F5725DD164B0073E796 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FBE6F5525DD164B0073E796 /* Main.storyboard */; };
 		9FBE6F5925DD164D0073E796 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9FBE6F5825DD164D0073E796 /* Assets.xcassets */; };
 		9FBE6F5C25DD164D0073E796 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FBE6F5A25DD164D0073E796 /* LaunchScreen.storyboard */; };
+		9FF5243625E0E0E600ABDC49 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FF5243525E0E0E600ABDC49 /* LoginViewController.swift */; };
+		9FF5243A25E0E0F400ABDC49 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FF5243925E0E0F400ABDC49 /* Login.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,8 @@
 		9FBE6F5825DD164D0073E796 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9FBE6F5B25DD164D0073E796 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9FBE6F5D25DD164D0073E796 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9FF5243525E0E0E600ABDC49 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		9FF5243925E0E0F400ABDC49 /* Login.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,7 +60,6 @@
 				7FA42804A3F6A3A620AE30D7 /* Pods-crystalDefect_2.debug.xcconfig */,
 				5C61000E95BB9337576DCF43 /* Pods-crystalDefect_2.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -81,6 +84,7 @@
 		9FBE6F4E25DD164B0073E796 /* crystalDefect_2 */ = {
 			isa = PBXGroup;
 			children = (
+				9FF5243425E0E0A600ABDC49 /* Login */,
 				9FBE6F4F25DD164B0073E796 /* AppDelegate.swift */,
 				9FBE6F5125DD164B0073E796 /* SceneDelegate.swift */,
 				9FBE6F5325DD164B0073E796 /* ViewController.swift */,
@@ -90,6 +94,15 @@
 				9FBE6F5D25DD164D0073E796 /* Info.plist */,
 			);
 			path = crystalDefect_2;
+			sourceTree = "<group>";
+		};
+		9FF5243425E0E0A600ABDC49 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				9FF5243525E0E0E600ABDC49 /* LoginViewController.swift */,
+				9FF5243925E0E0F400ABDC49 /* Login.storyboard */,
+			);
+			path = Login;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -154,6 +167,7 @@
 				9FBE6F5C25DD164D0073E796 /* LaunchScreen.storyboard in Resources */,
 				9FBE6F5925DD164D0073E796 /* Assets.xcassets in Resources */,
 				9FBE6F5725DD164B0073E796 /* Main.storyboard in Resources */,
+				9FF5243A25E0E0F400ABDC49 /* Login.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -206,6 +220,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9FF5243625E0E0E600ABDC49 /* LoginViewController.swift in Sources */,
 				9FBE6F5425DD164B0073E796 /* ViewController.swift in Sources */,
 				9FBE6F5025DD164B0073E796 /* AppDelegate.swift in Sources */,
 				9FBE6F5225DD164B0073E796 /* SceneDelegate.swift in Sources */,
