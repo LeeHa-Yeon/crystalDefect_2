@@ -36,13 +36,26 @@
                                             <action selector="KakaoLogin:" destination="Wco-DQ-Aco" eventType="touchUpInside" id="ycz-Ms-pLz"/>
                                         </connections>
                                     </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1tx-Tw-FLs">
+                                        <rect key="frame" x="150" y="536" width="114" height="30"/>
+                                        <color key="backgroundColor" systemColor="systemGray5Color"/>
+                                        <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <state key="normal" title="자동 로그인"/>
+                                        <connections>
+                                            <action selector="autoLoginButton:" destination="Wco-DQ-Aco" eventType="touchUpInside" id="9CU-5n-zvM"/>
+                                        </connections>
+                                    </button>
                                 </subviews>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="1tx-Tw-FLs" secondAttribute="trailing" constant="150" id="5Ji-FB-83O"/>
+                                    <constraint firstItem="1tx-Tw-FLs" firstAttribute="centerX" secondItem="Yj2-mE-CQb" secondAttribute="centerX" id="95N-ui-3TF"/>
                                     <constraint firstItem="Nfh-EY-BKU" firstAttribute="centerY" secondItem="Yj2-mE-CQb" secondAttribute="centerY" constant="50" id="9Es-5f-8Gg"/>
                                     <constraint firstItem="lZ8-t0-AhW" firstAttribute="centerY" secondItem="Yj2-mE-CQb" secondAttribute="centerY" constant="-130" id="EQ6-Uf-8kd"/>
+                                    <constraint firstItem="1tx-Tw-FLs" firstAttribute="leading" secondItem="Yj2-mE-CQb" secondAttribute="leading" constant="150" id="UCG-kF-ghr"/>
                                     <constraint firstItem="lZ8-t0-AhW" firstAttribute="centerX" secondItem="Yj2-mE-CQb" secondAttribute="centerX" id="bkN-uy-MOQ"/>
                                     <constraint firstItem="Nfh-EY-BKU" firstAttribute="centerX" secondItem="Yj2-mE-CQb" secondAttribute="centerX" id="ogn-Yh-PYW"/>
+                                    <constraint firstItem="1tx-Tw-FLs" firstAttribute="top" secondItem="Nfh-EY-BKU" secondAttribute="bottom" constant="20" id="vWi-Cf-g6k"/>
                                 </constraints>
                             </view>
                         </subviews>
@@ -65,6 +78,9 @@
         <image name="Image" width="366" height="90"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemGray5Color">
+            <color red="0.89803921568627454" green="0.89803921568627454" blue="0.91764705882352937" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
